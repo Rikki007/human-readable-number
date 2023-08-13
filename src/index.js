@@ -3,7 +3,6 @@ module.exports = function toReadable (number) {
     const oneDigit = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',];
     const twoDigit = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
     const roundTwoDigit = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
-    const roundThreeDigit = 'hundred';
     if (num.length === 1) {
       return oneDigit[number];
     }
